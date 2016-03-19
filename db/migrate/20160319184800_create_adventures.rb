@@ -4,6 +4,7 @@ class CreateAdventures < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.string :picture
+      t.date :visit
 
       t.timestamps
     end
